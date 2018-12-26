@@ -1,0 +1,805 @@
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="one">-->
+<!--<spen v-html="msg"></spen>-->
+<!--<spen v-text="number"></spen>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+<!--new Vue({-->
+<!--el:"#one",-->
+<!--data:{-->
+<!--msg:"<h1>gaobin</h1>",-->
+<!--number:"<h2>M</h2>"-->
+<!--},-->
+<!--})-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="two">-->
+<!--<h1><div v-on:click="headleClick">{{msg}}</div> </h1>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+<!--new Vue({-->
+<!--el:"#two",-->
+<!--data:{-->
+<!--msg:"我",-->
+<!--},-->
+<!--methods:{-->
+<!--headleClick:function(){-->
+<!--this.msg="长得真好看"-->
+<!--}-->
+<!--}-->
+<!--})-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="there">-->
+<!--<div v-bind:title="title">hello world</div>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+<!--new Vue({-->
+<!--el:"#there",-->
+<!--data:{-->
+<!--title:"hello this is my title",-->
+<!--},-->
+<!--})-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+<!--<!doctype html>-->
+<!--<html lang="four">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="four">-->
+<!--<div v-bind:title="title">hello world</div>-->
+<!--<input type="text" v-model="content">-->
+<!--<div>{{content}}</div>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+<!--new Vue({-->
+<!--el:"#four",-->
+<!--data:{-->
+<!--title:"hello this is my title",-->
+<!--content:"this is content"-->
+<!--},-->
+<!--})-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--&lt;!&ndash;菜鸟教程案例&ndash;&gt;-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="bird">-->
+<!--<h1>name:{{name}}</h1>-->
+<!--<h1>gender:{{gender}}</h1>-->
+<!--<h1>age:{{age}}</h1>-->
+<!--<h1>{{describe()}}</h1>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+<!--new Vue({-->
+<!--el:"#bird",-->
+<!--data:{-->
+<!--name:"高斌",-->
+<!--gender:"男",-->
+<!--age:"21"-->
+<!--},-->
+<!--methods:{-->
+<!--describe: function (){-->
+<!--return this.name+"&#45;&#45;&#45;&#45;长得就是好看";-->
+<!--}-->
+<!--}-->
+<!--})-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="sex">-->
+<!--<h3>name:{{name}}</h3>-->
+<!--<h3>gender:{{gender}}</h3>-->
+<!--<h3>describe:{{describe}}</h3>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+<!--var data = { name:"闪", gender:"女", describe:"就是好看(づ￣3￣)づ╭❤～"};-->
+<!--var vem = new Vue({-->
+<!--el:"#sex",-->
+<!--data:data-->
+<!--});-->
+
+<!--document.write(vem.name===data.name);-->
+<!--document.write("<br>");-->
+
+<!--vem.name="一";-->
+<!--document.write(data.name+"<br>");-->
+
+<!--data.describe="二(づ￣3￣)づ╭❤～";-->
+<!--document.write(vem.describe+"<br>");-->
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="seven">-->
+<!--<h3>name:{{name}}</h3>-->
+<!--<h3>gender:{{gender}}</h3>-->
+<!--<h3>describe:{{describe}}</h3>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+<!--var data = { name:"菜鸟教程", gender:"一", describe:"挺好的"};-->
+<!--var vem = new Vue({-->
+<!--el:"#seven",-->
+<!--data:data-->
+<!--});-->
+
+<!--document.write(vem.$describe === describe);-->
+<!--document.write("br");-->
+<!--document.write(vem.$el ===document.getElementById('sex'));-->
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--//模板语法-->
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="app">-->
+<!--<h3><div v-html="message"></div></h3>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+
+<!--new Vue({-->
+<!--el:"#app",-->
+<!--data: {-->
+<!--message:"高斌"-->
+<!--}-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<label for="r1">修改颜色</label><input type="checkbox" v-model="class1" id="r1">-->
+<!--<br><br>-->
+<!--<h3><div v-bind:class="{'class1':class1}">-->
+<!--v-bind:class指令-->
+<!--</div>-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data: {-->
+<!--class1:false-->
+<!--}-->
+<!--});-->
+
+<!--&lt;!&ndash;</script>&ndash;&gt;-->
+
+<!--&lt;!&ndash;</body>&ndash;&gt;-->
+<!--&lt;!&ndash;</html>&ndash;&gt;-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--{{5+5}}<br>-->
+<!--{{ok ? 'yes' : 'no'}}<br>-->
+<!--{{message.split('').reverse().join('')}}-->
+<!--<div v-bind:id="'list-'+id">菜鸟教程</div>-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data: {-->
+<!--ok:true,-->
+<!--message:"RUNOOB",-->
+<!--id:1-->
+<!--}-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--<p v-if="seen">现在就想看看你</p>-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data: {-->
+<!--seen:true-->
+<!--}-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--<pre><a  v-bind:href="url">现在就想看看你</a></pre>-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data: {-->
+<!--url:'http://www.runoob.com'-->
+<!--}-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--<p>{{message}}</p>-->
+<!--<input v-model="message">-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data: {-->
+<!--message:'RUNOOB'-->
+<!--}-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--<p>{{message}}</p>-->
+<!--<button v-on:click="reverseMessage">翻转字符串</button>-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data: {-->
+<!--message:'RUNOOB'-->
+<!--},-->
+<!--methods:{-->
+<!--reverseMessage:function(){-->
+<!--this.message=this.message.split('').reverse().join('')-->
+<!--}-->
+<!--}-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--{{message | capi}}-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data: {-->
+<!--message:'runoob'-->
+<!--},-->
+<!--filters:{-->
+<!--capi:function(value){-->
+<!--if (!value) return ''-->
+<!--value = value.toString()-->
+<!--return value.charAt(0).toUpperCase()+value.slice(1)-->
+<!--}-->
+<!--}-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--<p v-if="seen">现在就想看看你</p>-->
+<!--<template v-if="ok">-->
+<!--<h1>菜鸟教程</h1>-->
+<!--<p>学的不仅仅是技术，更有梦想！</p>-->
+<!--<p>哈哈哈，打字辛苦啊</p>-->
+<!--</template>-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data: {-->
+<!--seen:true,-->
+<!--ok:true-->
+<!--},-->
+
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--<div v-if="Math.random()>0.5">Sorry</div>-->
+<!--<div v-else>-->
+<!--Not sorry-->
+<!--</div>-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--<div v-if="type ==='A'">A</div>-->
+<!--<div v-else-if="type ==='B'">B</div>-->
+<!--<div v-else-if="type ==='C'">C</div>-->
+<!--<div v-else>-->
+<!--Not A/B/C-->
+<!--</div>-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data:{-->
+<!--type:'C'-->
+<!--}-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<h3>-->
+<!--<ol>-->
+<!--<li v-for="site in sites">-->
+<!--{{site.name}}-->
+<!--</li>-->
+<!--</ol>-->
+<!--</h3>-->
+<!--</div>-->
+<!--<script>-->
+
+<!--new Vue({-->
+<!--el:"#appone",-->
+<!--data:{-->
+<!--sites:[-->
+<!--{name:'Runoob'},-->
+<!--{name:'Google'},-->
+<!--{name:'Taobao'}-->
+<!--]-->
+<!--}-->
+<!--});-->
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="appone">-->
+<!--<div id="app">-->
+<!--<ul>-->
+<!--<li v-for="value in object">-->
+<!--{{ value }}-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+
+<!--<script>-->
+<!--new Vue({-->
+<!--el: '#appone',-->
+<!--data: {-->
+<!--object: {-->
+<!--name: '菜鸟教程',-->
+<!--url: 'http://www.runoob.com',-->
+<!--slogan: '学的不仅是技术，更是梦想！'-->
+<!--}-->
+<!--}-->
+<!--})-->
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!--计算属性-->
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="app">-->
+<!--{{template}}-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+<!--new Vue({-->
+<!--el:'#app',-->
+<!--template:"<p>Hello world </br>{{word}}</p>",-->
+<!--data:{-->
+<!--word: 'Hello word'-->
+<!--}-->
+<!--})-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="app">-->
+<!--<p>原始字符串：{{message}}</p>-->
+<!--<p>计算后反转字符串：{{reversedMessage}}</p>-->
+<!--</div>-->
+
+<!--<script type="text/javascript">-->
+<!--var vm = new Vue({-->
+<!--el: '#app',-->
+<!--data: {-->
+<!--message: 'Runoob!'-->
+<!--},-->
+<!--computed: {-->
+<!--// 计算属性的 getter-->
+<!--reversedMessage: function () {-->
+<!--// `this` 指向 vm 实例-->
+<!--return this.message.split('').reverse().join('')-->
+<!--}-->
+<!--}-->
+<!--})-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个Vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="app">-->
+<!--<p style="font-size: 25px">计数器：{{counter}}</p>-->
+<!--<button @click = 'counter++'style = "font-size: 25px;">点我</button>-->
+<!--</div>-->
+<!--<script TYPE="text/javascript">-->
+<!--var vm = new Vue({-->
+<!--el:"#app",-->
+<!--data:{-->
+<!--counter:1-->
+<!--}-->
+<!--});-->
+<!--vm.$watch('counter',function (nval,oval) {-->
+<!--alert("计数器值的变化:'+'oval+'变为'+nval+'!'")-->
+<!--})-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta name="viewport"-->
+<!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--<title>创建一个Vue示例</title>-->
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id = "computed_props">-->
+<!--千米 : <input type = "text" v-model = "kilometers">-->
+<!--米 : <input type = "text" v-model = "meters">-->
+<!--</div>-->
+<!--<p id="info"></p>-->
+<!--<script type = "text/javascript">-->
+<!--var vm = new Vue({-->
+<!--el: '#computed_props',-->
+<!--data: {-->
+<!--kilometers : 0,-->
+<!--meters:0-->
+<!--},-->
+<!--methods: {-->
+<!--},-->
+<!--computed :{-->
+<!--},-->
+<!--watch : {-->
+<!--kilometers:function(val) {-->
+<!--this.kilometers = val;-->
+<!--this.meters = val * 1000;-->
+<!--},-->
+<!--meters : function (val) {-->
+<!--this.kilometers = val/ 1000;-->
+<!--this.meters = val;-->
+<!--}-->
+<!--}-->
+<!--});-->
+<!--// $watch 是一个实例方法-->
+<!--vm.$watch('kilometers', function (newValue, oldValue) {-->
+<!--// 这个回调将在 vm.kilometers 改变后调用-->
+<!--document.getElementById ("info").innerHTML = "换算前的值: " + oldValue + "，换算后的值: " + newValue;-->
+<!--})-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+

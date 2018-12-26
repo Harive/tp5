@@ -1,0 +1,4111 @@
+---------------------------------------------------------------
+[ 2018-12-20T09:33:06+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：2.132093s] [吞吐率：0.47req/s] [内存消耗：3,328.20kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001813s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:1.361441s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.045816s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:11]
+---------------------------------------------------------------
+[ 2018-12-20T09:33:08+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.325379s] [吞吐率：3.07req/s] [内存消耗：3,328.21kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001777s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.269166s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000685s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:11]
+---------------------------------------------------------------
+[ 2018-12-20T09:34:23+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.131875s] [吞吐率：7.58req/s] [内存消耗：3,321.20kb] [文件加载：48]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001744s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001856s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000749s ]
+[ error ] [0]variable type error： array[F:\four\wamp64\www\tp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2018-12-20T09:34:26+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.063549s] [吞吐率：15.74req/s] [内存消耗：3,321.20kb] [文件加载：48]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001457s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000783s ]
+[ error ] [0]variable type error： array[F:\four\wamp64\www\tp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2018-12-20T09:35:19+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.332158s] [吞吐率：3.01req/s] [内存消耗：3,118.05kb] [文件加载：44]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002417s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002591s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.001212s ]
+---------------------------------------------------------------
+[ 2018-12-20T09:38:24+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.077307s] [吞吐率：12.94req/s] [内存消耗：3,321.20kb] [文件加载：48]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001669s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000901s ]
+[ error ] [0]variable type error： object[F:\four\wamp64\www\tp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2018-12-20T09:38:48+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.188061s] [吞吐率：5.32req/s] [内存消耗：3,329.55kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.104980s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.022176s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000746s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, object given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:13]
+---------------------------------------------------------------
+[ 2018-12-20T09:38:50+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.149065s] [吞吐率：6.71req/s] [内存消耗：3,329.55kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001646s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015081s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.011033s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, object given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:13]
+---------------------------------------------------------------
+[ 2018-12-20T09:38:50+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.049339s] [吞吐率：20.27req/s] [内存消耗：3,329.55kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001235s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000580s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, object given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:13]
+---------------------------------------------------------------
+[ 2018-12-20T09:39:11+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.068679s] [吞吐率：14.56req/s] [内存消耗：3,321.20kb] [文件加载：48]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001563s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012237s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000642s ]
+[ error ] [0]variable type error： array[F:\four\wamp64\www\tp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2018-12-20T09:39:24+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.052901s] [吞吐率：18.90req/s] [内存消耗：3,328.85kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001301s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000636s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T09:40:58+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.162739s] [吞吐率：6.14req/s] [内存消耗：3,329.19kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100287s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001933s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000691s ]
+[ error ] [8]Array to string conversion[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T09:41:49+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index.html
+[运行时间：0.074827s] [吞吐率：13.36req/s] [内存消耗：3,329.59kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011174s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000652s ]
+[ error ] [8]Array to string conversion[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T09:42:12+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/index/index
+[运行时间：0.056661s] [吞吐率：17.65req/s] [内存消耗：1,752.25kb] [文件加载：33]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\four\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T09:42:24+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/index/index
+[运行时间：0.032048s] [吞吐率：31.20req/s] [内存消耗：1,753.03kb] [文件加载：33]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\four\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T09:42:25+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/index/index
+[运行时间：0.031480s] [吞吐率：31.77req/s] [内存消耗：1,753.03kb] [文件加载：33]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\four\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T09:42:51+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.062609s] [吞吐率：15.97req/s] [内存消耗：3,117.96kb] [文件加载：44]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001548s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001918s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000942s ]
+---------------------------------------------------------------
+[ 2018-12-20T09:43:12+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.067606s] [吞吐率：14.79req/s] [内存消耗：3,117.95kb] [文件加载：44]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011047s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000631s ]
+---------------------------------------------------------------
+[ 2018-12-20T09:43:17+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.136601s] [吞吐率：7.32req/s] [内存消耗：3,329.21kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001529s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.074350s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000682s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T09:44:40+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.082410s] [吞吐率：12.13req/s] [内存消耗：3,328.59kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001517s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.021315s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000811s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T09:44:41+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.079793s] [吞吐率：12.53req/s] [内存消耗：3,328.59kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001378s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.018828s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T09:45:26+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.064700s] [吞吐率：15.46req/s] [内存消耗：3,328.34kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001580s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000609s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T10:04:42+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.068140s] [吞吐率：14.68req/s] [内存消耗：3,117.13kb] [文件加载：44]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004650s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003455s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.001524s ]
+---------------------------------------------------------------
+[ 2018-12-20T10:07:05+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.377748s] [吞吐率：2.65req/s] [内存消耗：3,477.30kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\admin\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001940s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001851s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000998s ]
+---------------------------------------------------------------
+[ 2018-12-20T10:07:05+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.dcjqaccordion.2.7.js
+[运行时间：0.124573s] [吞吐率：8.03req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:05+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.js
+[运行时间：0.163746s] [吞吐率：6.11req/s] [内存消耗：2,233.89kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:05+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/bootstrap.min.js
+[运行时间：0.154785s] [吞吐率：6.46req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:05+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.nicescroll.js
+[运行时间：0.144459s] [吞吐率：6.92req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:05+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/bootstrap.min.js
+[运行时间：0.062564s] [吞吐率：15.98req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:05+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.dcjqaccordion.2.7.js
+[运行时间：0.033172s] [吞吐率：30.15req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:06+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.scrollTo.min.js
+[运行时间：0.190775s] [吞吐率：5.24req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:06+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.nicescroll.js
+[运行时间：0.036017s] [吞吐率：27.76req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:15+08:00 ] 127.0.0.1 GET www.tp.com/user/update/1
+[运行时间：0.030483s] [吞吐率：32.81req/s] [内存消耗：1,798.59kb] [文件加载：35]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'update',
+    2 => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:18+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.js
+[运行时间：0.043675s] [吞吐率：22.90req/s] [内存消耗：2,233.89kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:18+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.scrollTo.min.js
+[运行时间：0.051512s] [吞吐率：19.41req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:18+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.dcjqaccordion.2.7.js
+[运行时间：0.052616s] [吞吐率：19.01req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:18+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.nicescroll.js
+[运行时间：0.073849s] [吞吐率：13.54req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:18+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/bootstrap.min.js
+[运行时间：0.100449s] [吞吐率：9.96req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:07:18+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/%7Basset('js')%7D/jquery.nicescroll.js
+[运行时间：0.040442s] [吞吐率：24.73req/s] [内存消耗：2,233.91kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => '{asset(\'js\')}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/index.php/index/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T15:22:18+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：6.722741s] [吞吐率：0.15req/s] [内存消耗：3,117.19kb] [文件加载：44]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.751382s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:1.958468s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.063257s ]
+---------------------------------------------------------------
+[ 2018-12-20T15:22:26+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.087247s] [吞吐率：11.46req/s] [内存消耗：3,117.19kb] [文件加载：44]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002021s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016644s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.016714s ]
+---------------------------------------------------------------
+[ 2018-12-20T18:52:47+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/index/index
+[运行时间：1.586225s] [吞吐率：0.63req/s] [内存消耗：1,752.64kb] [文件加载：33]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\four\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T18:52:56+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/index/index
+[运行时间：0.070426s] [吞吐率：14.20req/s] [内存消耗：1,753.03kb] [文件加载：33]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\four\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T18:52:58+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/index/index
+[运行时间：0.030749s] [吞吐率：32.52req/s] [内存消耗：1,753.03kb] [文件加载：33]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\four\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T18:53:07+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：2.155963s] [吞吐率：0.46req/s] [内存消耗：2,232.90kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Index::password()[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:13]
+---------------------------------------------------------------
+[ 2018-12-20T19:01:47+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：1.286735s] [吞吐率：0.78req/s] [内存消耗：2,232.89kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Index::user()[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:13]
+---------------------------------------------------------------
+[ 2018-12-20T19:03:03+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.116592s] [吞吐率：8.58req/s] [内存消耗：2,231.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\model\index' not found[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T19:03:16+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.038105s] [吞吐率：26.24req/s] [内存消耗：2,231.45kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\index' not found[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T19:04:39+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.043607s] [吞吐率：22.93req/s] [内存消耗：2,231.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\index' not found[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T19:04:56+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.206923s] [吞吐率：4.83req/s] [内存消耗：2,223.09kb] [文件加载：41]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:res[F:\four\wamp64\www\tp5\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-12-20T19:05:13+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.039786s] [吞吐率：25.13req/s] [内存消耗：2,231.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\index' not found[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T19:05:14+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.057517s] [吞吐率：17.39req/s] [内存消耗：2,231.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\index' not found[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T19:05:14+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.043826s] [吞吐率：22.82req/s] [内存消耗：2,231.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\index' not found[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T19:05:14+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.037518s] [吞吐率：26.65req/s] [内存消耗：2,231.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\index' not found[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T19:08:43+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.142898s] [吞吐率：7.00req/s] [内存消耗：2,176.82kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:09:59+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：3.965366s] [吞吐率：0.25req/s] [内存消耗：3,200.25kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.982671s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:1.349680s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.130289s ]
+---------------------------------------------------------------
+[ 2018-12-20T19:10:00+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.274285s] [吞吐率：3.65req/s] [内存消耗：3,200.25kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032382s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031580s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.002203s ]
+---------------------------------------------------------------
+[ 2018-12-20T19:10:06+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.054923s] [吞吐率：18.21req/s] [内存消耗：3,200.25kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001585s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009720s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000918s ]
+---------------------------------------------------------------
+[ 2018-12-20T19:10:48+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.267096s] [吞吐率：3.74req/s] [内存消耗：3,317.99kb] [文件加载：51]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004764s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.113979s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000752s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:13]
+---------------------------------------------------------------
+[ 2018-12-20T19:11:18+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.245743s] [吞吐率：4.07req/s] [内存消耗：3,200.58kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001555s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.050081s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000788s ]
+---------------------------------------------------------------
+[ 2018-12-20T19:12:55+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.104955s] [吞吐率：9.53req/s] [内存消耗：3,199.05kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0ddfa059-f45b-4fae-b2f7-a3afa6270983',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010988s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.036988s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.001074s ]
+---------------------------------------------------------------
+[ 2018-12-20T19:14:20+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：2.446938s] [吞吐率：0.41req/s] [内存消耗：3,316.46kb] [文件加载：51]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '36be1fd7-8345-471f-869d-a42e026c0170',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.067442s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.100963s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000744s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:13]
+---------------------------------------------------------------
+[ 2018-12-20T19:14:48+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.088072s] [吞吐率：11.35req/s] [内存消耗：3,317.99kb] [文件加载：51]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009111s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.020679s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000759s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:13]
+---------------------------------------------------------------
+[ 2018-12-20T19:25:13+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：0.067839s] [吞吐率：14.74req/s] [内存消耗：2,230.57kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '960ef32f-c956-4d98-9379-e0b6c0c01b45',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(key.txt): failed to open stream: No such file or directory[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:11]
+---------------------------------------------------------------
+[ 2018-12-20T19:25:25+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index
+[运行时间：0.037895s] [吞吐率：26.39req/s] [内存消耗：2,231.72kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(key.txt): failed to open stream: No such file or directory[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:11]
+---------------------------------------------------------------
+[ 2018-12-20T19:25:40+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：0.036036s] [吞吐率：27.75req/s] [内存消耗：2,231.71kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(key.txt): failed to open stream: No such file or directory[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:11]
+---------------------------------------------------------------
+[ 2018-12-20T19:25:43+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：0.035846s] [吞吐率：27.90req/s] [内存消耗：2,232.10kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ RUN ] app\index\controller\Admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(key.txt): failed to open stream: No such file or directory[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:11]
+---------------------------------------------------------------
+[ 2018-12-20T19:29:38+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：0.132617s] [吞吐率：7.54req/s] [内存消耗：1,933.91kb] [文件加载：39]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b3c70e83-add7-4355-bba8-19f4d2d90999',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:29:48+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：0.034058s] [吞吐率：29.36req/s] [内存消耗：1,935.45kb] [文件加载：39]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:30:12+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：0.043588s] [吞吐率：22.94req/s] [内存消耗：2,230.52kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2e01ac19-601c-4413-9270-81c273770b0e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ RUN ] app\index\controller\admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(key.txt): failed to open stream: No such file or directory[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T19:30:16+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：0.042170s] [吞吐率：23.71req/s] [内存消耗：2,232.05kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ RUN ] app\index\controller\admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(key.txt): failed to open stream: No such file or directory[F:\four\wamp64\www\tp5\application\index\controller\Admin.php:12]
+---------------------------------------------------------------
+[ 2018-12-20T19:34:45+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：11.679613s] [吞吐率：0.09req/s] [内存消耗：3,207.52kb] [文件加载：48]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '04d11d95-74c5-4746-80fe-c7f00b14fa15',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ RUN ] app\index\controller\admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:4.131522s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:3.840289s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.672509s ]
+---------------------------------------------------------------
+[ 2018-12-20T19:34:51+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：0.483949s] [吞吐率：2.07req/s] [内存消耗：3,209.05kb] [文件加载：48]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ RUN ] app\index\controller\admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.067209s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.203342s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.045309s ]
+---------------------------------------------------------------
+[ 2018-12-20T19:35:05+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/admin/index?key=1066464dfdsf4ds6sf4
+[运行时间：0.189448s] [吞吐率：5.28req/s] [内存消耗：3,207.52kb] [文件加载：48]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e2611daf-5fa4-4c70-93bd-c9f58253c360',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1066464dfdsf4ds6sf4',
+)
+[ info ] [ RUN ] app\index\controller\admin->index[ F:\four\wamp64\www\tp5\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061749s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034618s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.047320s ]
+---------------------------------------------------------------
+[ 2018-12-20T19:49:41+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：0.574340s] [吞吐率：1.74req/s] [内存消耗：1,801.34kb] [文件加载：36]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:53:43+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：1.132132s] [吞吐率：0.88req/s] [内存消耗：2,442.20kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:54:40+08:00 ] 127.0.0.1 POST www.tp.com/index.php/register/inster.html
+[运行时间：0.234510s] [吞吐率：4.26req/s] [内存消耗：1,799.25kb] [文件加载：35]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'register',
+    1 => 'inster',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968826',
+  'password' => '112233',
+  'password2' => '112233',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:56:01+08:00 ] 127.0.0.1 POST www.tp.com/index.php/register/inster.html
+[运行时间：0.036352s] [吞吐率：27.51req/s] [内存消耗：1,799.25kb] [文件加载：35]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'register',
+    1 => 'inster',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968826',
+  'password' => '112233',
+  'password2' => '112233',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:57:01+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：2.008560s] [吞吐率：0.50req/s] [内存消耗：2,442.20kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:57:05+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：0.039968s] [吞吐率：25.02req/s] [内存消耗：2,267.04kb] [文件加载：41]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:57:29+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/inster.html
+[运行时间：0.519675s] [吞吐率：1.92req/s] [内存消耗：2,234.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'inster',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13533968832',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:58:39+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/Register/inster.html
+[运行时间：0.047779s] [吞吐率：20.93req/s] [内存消耗：2,233.37kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'inster',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:58:45+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/Register/inster.html
+[运行时间：0.043973s] [吞吐率：22.74req/s] [内存消耗：2,233.76kb] [文件加载：42]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'inster',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:58:51+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：0.046016s] [吞吐率：21.73req/s] [内存消耗：2,442.20kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T19:59:10+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：1.298303s] [吞吐率：0.77req/s] [内存消耗：3,241.96kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '18564164966',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.365041s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.131900s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '18564164966' LIMIT 1 [ RunTime:0.102181s ]
+[ sql ] [ SQL ] INSERT INTO `register` (`telphone` , `password` , `emailtenk` , `dateus`) VALUES ('18564164966' , '07cee7d7142e06a84f14a14747296f4d' , '485461122@163.com' , '2018-12-20 19:59:10') [ RunTime:0.088800s ]
+---------------------------------------------------------------
+[ 2018-12-20T20:01:38+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.104409s] [吞吐率：9.58req/s] [内存消耗：2,238.84kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cb9d5945-e513-4146-977f-9862a61a9d66',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:03:15+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=&emailtenk=485461122@163.com
+[运行时间：0.044544s] [吞吐率：22.45req/s] [内存消耗：2,238.80kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '50d38405-1f4d-4a60-b8f6-73244342cbed',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:03:30+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.057112s] [吞吐率：17.51req/s] [内存消耗：2,238.84kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'def8a973-0ac8-410c-bca2-1b7b1083ac4f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:04:19+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：0.057146s] [吞吐率：17.50req/s] [内存消耗：2,267.04kb] [文件加载：41]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:04:44+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.125547s] [吞吐率：7.97req/s] [内存消耗：3,241.96kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '85',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '18611112273',
+  'password' => '1112223',
+  'password2' => '1112223',
+  'emailtenk' => '485461152@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001761s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.068975s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '18611112273' LIMIT 1 [ RunTime:0.000784s ]
+[ sql ] [ SQL ] INSERT INTO `register` (`telphone` , `password` , `emailtenk` , `dateus`) VALUES ('18611112273' , 'a3819ff0efb2f242d517e25f5f75f6c0' , '485461152@163.com' , '2018-12-20 20:04:44') [ RunTime:0.000890s ]
+---------------------------------------------------------------
+[ 2018-12-20T20:05:33+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.054080s] [吞吐率：18.49req/s] [内存消耗：2,266.09kb] [文件加载：41]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '00b901c0-140d-4073-a59b-0fff7b0bfaf4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:06:07+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.040114s] [吞吐率：24.93req/s] [内存消耗：2,238.84kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '457210f1-cafa-4e8e-923c-cc75adc3407d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:06:14+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.048284s] [吞吐率：20.71req/s] [内存消耗：2,238.66kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bf1f6bc9-e187-4ae8-87b1-8a11d4675765',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:09:00+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.040288s] [吞吐率：24.82req/s] [内存消耗：2,238.66kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1e13ac4d-d057-4063-8ed6-bfbb6c5fb2cc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:10:21+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.037580s] [吞吐率：26.61req/s] [内存消耗：2,239.29kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0dd1316c-ad81-48da-a715-49bd258001f5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant input - assumed 'input'[F:\four\wamp64\www\tp5\application\index\controller\Register.php:40]
+---------------------------------------------------------------
+[ 2018-12-20T20:11:00+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.039615s] [吞吐率：25.24req/s] [内存消耗：2,239.29kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b2b421be-c1a9-4b41-84c3-5f436acc6aa0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant input - assumed 'input'[F:\four\wamp64\www\tp5\application\index\controller\Register.php:41]
+---------------------------------------------------------------
+[ 2018-12-20T20:11:40+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.036640s] [吞吐率：27.29req/s] [内存消耗：2,238.66kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '460fdf0f-6b1b-48f9-afc4-68e32c8df7ab',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:11:41+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=112223&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.051475s] [吞吐率：19.43req/s] [内存消耗：2,238.66kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3827bf8b-013a-4766-885b-008982ce1aac',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '112223',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:23:37+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=1300005565&password=&password2=112223&emailtenk=485461122@163.com
+[运行时间：0.153916s] [吞吐率：6.50req/s] [内存消耗：2,238.63kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b75cf39a-565e-4317-b282-1b705071f1e9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '1300005565',
+  'password' => '',
+  'password2' => '112223',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:23:49+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?password2=11222&emailtenk=485461122@163.com
+[运行时间：0.040550s] [吞吐率：24.66req/s] [内存消耗：2,238.52kb] [文件加载：43]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1a0b000f-33ef-43de-a769-e2415fc73a92',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:45]
+---------------------------------------------------------------
+[ 2018-12-20T20:24:36+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.352008s] [吞吐率：2.84req/s] [内存消耗：3,241.52kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '60',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '',
+  'password' => '',
+  'password2' => '',
+  'emailtenk' => '485461152@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.097972s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.080225s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '' LIMIT 1 [ RunTime:0.000820s ]
+[ sql ] [ SQL ] INSERT INTO `register` (`telphone` , `password` , `emailtenk` , `dateus`) VALUES ('' , 'd41d8cd98f00b204e9800998ecf8427e' , '485461152@163.com' , '2018-12-20 20:24:36') [ RunTime:0.001091s ]
+---------------------------------------------------------------
+[ 2018-12-20T20:24:45+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：0.153151s] [吞吐率：6.53req/s] [内存消耗：2,267.04kb] [文件加载：41]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:24:47+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.193637s] [吞吐率：5.16req/s] [内存消耗：3,273.68kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '',
+  'password' => '',
+  'password2' => '',
+  'emailtenk' => '',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011032s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.121350s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '' LIMIT 1 [ RunTime:0.000675s ]
+---------------------------------------------------------------
+[ 2018-12-20T20:24:51+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：0.042609s] [吞吐率：23.47req/s] [内存消耗：2,267.04kb] [文件加载：41]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:24:52+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.186154s] [吞吐率：5.37req/s] [内存消耗：3,273.68kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '',
+  'password' => '',
+  'password2' => '',
+  'emailtenk' => '',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002087s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.124618s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '' LIMIT 1 [ RunTime:0.009367s ]
+---------------------------------------------------------------
+[ 2018-12-20T20:25:48+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：0.043307s] [吞吐率：23.09req/s] [内存消耗：2,268.14kb] [文件加载：41]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:25:49+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.039933s] [吞吐率：25.04req/s] [内存消耗：2,193.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '',
+  'password' => '',
+  'password2' => '',
+  'emailtenk' => '',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:25:55+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?password2=11222&emailtenk=485461122@163.com
+[运行时间：0.034193s] [吞吐率：29.25req/s] [内存消耗：2,191.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd708c10d-1312-4697-8acb-cd335620cc6d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:26:26+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?password2=11222&emailtenk=485461122@163.com&telphoone=14796769182&password=11222
+[运行时间：0.047669s] [吞吐率：20.98req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6a4b5a7b-40e6-4648-9e3d-15318a7b88de',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+  'telphoone' => '14796769182',
+  'password' => '11222',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:26:43+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?password2=11222&emailtenk=485461122@163.com&telphone=14796769182&password=11222
+[运行时间：0.051204s] [吞吐率：19.53req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b6a34ae0-11f3-4e77-8e05-9f9bc38a351d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+  'telphone' => '14796769182',
+  'password' => '11222',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:27:14+08:00 ] 127.0.0.1 GET www.tp.com/index.php/index/register/index
+[运行时间：0.044416s] [吞吐率：22.51req/s] [内存消耗：2,268.14kb] [文件加载：41]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ VIEW ] F:\four\wamp64\www\tp5\public/../application/index\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:27:16+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.037640s] [吞吐率：26.57req/s] [内存消耗：2,193.08kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '',
+  'password' => '',
+  'password2' => '',
+  'emailtenk' => '',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:27:19+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.043611s] [吞吐率：22.93req/s] [内存消耗：2,193.11kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '18564164966',
+  'password' => '',
+  'password2' => '',
+  'emailtenk' => '',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:27:26+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.037892s] [吞吐率：26.39req/s] [内存消耗：2,193.13kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '58',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '18564164966',
+  'password' => '123456',
+  'password2' => '',
+  'emailtenk' => '',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:27:35+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.165842s] [吞吐率：6.03req/s] [内存消耗：3,275.25kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '18564164966',
+  'password' => '123456',
+  'password2' => '123456',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019368s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.031035s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '18564164966' LIMIT 1 [ RunTime:0.000717s ]
+---------------------------------------------------------------
+[ 2018-12-20T20:27:51+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.272095s] [吞吐率：3.68req/s] [内存消耗：3,243.06kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '14796769182',
+  'password' => '123456',
+  'password2' => '123456',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001492s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.213581s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '14796769182' LIMIT 1 [ RunTime:0.000911s ]
+[ sql ] [ SQL ] INSERT INTO `register` (`telphone` , `password` , `emailtenk` , `dateus`) VALUES ('14796769182' , 'e10adc3949ba59abbe56e057f20f883e' , '485461122@163.com' , '2018-12-20 20:27:51') [ RunTime:0.000745s ]
+---------------------------------------------------------------
+[ 2018-12-20T20:28:08+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.083335s] [吞吐率：12.00req/s] [内存消耗：3,243.06kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '81',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '14796769482',
+  'password' => '12345',
+  'password2' => '12345',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001511s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.027743s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '14796769482' LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] INSERT INTO `register` (`telphone` , `password` , `emailtenk` , `dateus`) VALUES ('14796769482' , '827ccb0eea8a706c4c34a16891f84e7b' , '485461122@163.com' , '2018-12-20 20:28:08') [ RunTime:0.000534s ]
+---------------------------------------------------------------
+[ 2018-12-20T20:28:22+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html
+[运行时间：0.036441s] [吞吐率：27.44req/s] [内存消耗：2,193.13kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index.php/index/register/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=2604082176; pgv_si=s9604146176',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '14796769483',
+  'password' => '12345',
+  'password2' => '12345',
+  'emailtenk' => '',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:28:28+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?password2=11222&emailtenk=485461122@163.com&telphone=14796769182&password=11222
+[运行时间：0.359260s] [吞吐率：2.78req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fe7616fc-9bd9-4c63-ae7d-76c5e6173937',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+  'telphone' => '14796769182',
+  'password' => '11222',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:28:29+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?password2=11222&emailtenk=485461122@163.com&telphone=14796769182&password=11222
+[运行时间：0.042404s] [吞吐率：23.58req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ae2d90b7-fa31-4afd-bbbe-cda2ef1c7411',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+  'telphone' => '14796769182',
+  'password' => '11222',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:28:58+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=14796769182&password2=11222&emailtenk=485461122@163.com&password=11222
+[运行时间：0.037797s] [吞吐率：26.46req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd66a24ef-e6c7-41eb-bea4-3ef24ba209e4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '14796769182',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+  'password' => '11222',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:29:26+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=14796769182&password2=11222&emailtenk=485461122@163.com&password=11222
+[运行时间：0.029757s] [吞吐率：33.61req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dd8417c6-1663-4cbb-8761-b99cf6d57771',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '14796769182',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+  'password' => '11222',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:29:45+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=14796769182&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.035227s] [吞吐率：28.39req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '60e6a2e9-3060-4529-8b84-ba75bb48352d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '14796769182',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:30:21+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=13233968829&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.028875s] [吞吐率：34.63req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ed9c8e20-5083-4e58-a116-2db13a75a5fd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968829',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:31:15+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=13233968829&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.029695s] [吞吐率：33.68req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '98826e68-402b-4959-9586-30a1511b8ce1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968829',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:32:12+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=13233968829&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.030281s] [吞吐率：33.02req/s] [内存消耗：2,191.68kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '724c5140-0472-4048-bb8c-fd42874d08be',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968829',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:32:55+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=13233968829&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.150351s] [吞吐率：6.65req/s] [内存消耗：2,191.16kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f470ac93-c00c-422d-9541-57b96ca47dad',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968829',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:34:21+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=13233968829&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.275485s] [吞吐率：3.63req/s] [内存消耗：2,024.23kb] [文件加载：37]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ab6c68af-78e1-4d70-964e-c82c3c087884',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968829',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:34:38+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=13233968829&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.133609s] [吞吐率：7.48req/s] [内存消耗：2,191.73kb] [文件加载：40]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4e58e258-6c56-47f7-ac10-497bfc1edb27',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968829',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T20:35:56+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=13233968829&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.252659s] [吞吐率：3.96req/s] [内存消耗：3,320.17kb] [文件加载：50]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '81f6dec3-ad22-431c-a507-a02d4d8e145a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968829',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009362s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.024973s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '13233968829' LIMIT 1 [ RunTime:0.001001s ]
+[ error ] [8]未定义数组索引: password[F:\four\wamp64\www\tp5\application\index\controller\Register.php:60]
+---------------------------------------------------------------
+[ 2018-12-20T20:40:00+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=13233968829&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.058998s] [吞吐率：16.95req/s] [内存消耗：3,318.98kb] [文件加载：49]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '488e8459-abb9-4d63-a1bf-f9244d5337e1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968829',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010580s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.001745s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '13233968829' LIMIT 1 [ RunTime:0.000605s ]
+[ error ] [0]数据表字段不存在:[date][F:\four\wamp64\www\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2018-12-20T20:40:15+08:00 ] 127.0.0.1 POST www.tp.com/index.php/index/Register/insert.html?telphone=13233968829&password=11222&password2=11222&emailtenk=485461122@163.com
+[运行时间：0.056408s] [吞吐率：17.73req/s] [内存消耗：3,240.13kb] [文件加载：47]
+[ info ] [ LANG ] F:\four\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5d307e65-95f9-449e-9788-b0a937f39d6d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.tp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '13233968829',
+  'password' => '11222',
+  'password2' => '11222',
+  'emailtenk' => '485461122@163.com',
+)
+[ info ] [ RUN ] app\index\controller\register->insert[ F:\four\wamp64\www\tp5\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001347s ] mysql:host=127.0.0.1;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `register` [ RunTime:0.014507s ]
+[ sql ] [ SQL ] SELECT * FROM `register` WHERE  `telphone` = '13233968829' LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] INSERT INTO `register` (`telphone` , `password` , `emailtenk` , `dateus`) VALUES ('13233968829' , '11222' , '485461122@163.com' , '2018-12-20 20:40:15') [ RunTime:0.000648s ]
